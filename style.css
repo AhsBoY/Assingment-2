@@ -147,19 +147,20 @@
         padding-left: 2px;
     }
     
-/*     ----------
-    meadia query 
-     ---------- */
+/*  ----------
+ meadia query 
+ ---------- */
 
      /* ---mobile---- */
 
-    /* @media only screen and (max-width:688px) {
+    @media only screen and (max-width:688px) {
 
         .Introduction{
             width: 100%;
             background-color: blue;
-            /* display: flex;
-            flex-direction: column; */ 
-        
+             display: flex; 
+            flex-direction: column; 
+        }        
+    }    
     
     
