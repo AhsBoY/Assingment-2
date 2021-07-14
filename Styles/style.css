@@ -141,4 +141,21 @@
     } 
     .copyright span{
         padding-left: 2px;
-    }   
+    }
+    
+/*     ----------
+    meadia query 
+     ---------- */
+
+     /* ---mobile---- */
+
+    /* @media only screen and (max-width:688px) {
+
+        .Introduction{
+            width: 100%;
+            background-color: blue;
+            /* display: flex;
+            flex-direction: column; */ 
+        
+    
+    
