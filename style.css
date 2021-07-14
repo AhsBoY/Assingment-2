@@ -158,9 +158,44 @@
         .Introduction{
             width: 100%;
             background-color: blue;
-             display: flex; 
-            flex-direction: column; 
-        }        
+             
+             display: flex;  
+            flex-direction: column;  
+        }
+        .section-title{
+            width: 100%;
+            margin-left: 0;
+
+        }
+        .section-title h2{
+            font-size: 30px;
+            width: 278px;
+            height: 138px;
+        }
+        .section-title a{
+            margin-left: 110px;
+        }
+        .section-banner img{
+            width: 329px;
+            height: 259.17px;
+        }
+        .players{
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+        }
+        .Highlights{
+            flex-direction: column;
+        }
+        .highlights-info h2{
+            text-align: start;
+            width: 268px;
+            height: 150px;
+            font-size: 30px;
+        }
+         .End{
+           visibility: hidden;
+        }
+    
     }    
     
     
