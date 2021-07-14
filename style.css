@@ -1,3 +1,7 @@
+/* ------------
+   Fonts
+-------------    */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* -----------------
@@ -113,6 +117,9 @@
         height: 113px;
         font-size: 20px;
     }
+    .highlights-video-2{
+        display: none;
+    }
 
 
     footer{
@@ -187,14 +194,27 @@
             flex-direction: column;
         }
         .highlights-info h2{
-            text-align: start;
+           
             width: 268px;
             height: 150px;
             font-size: 30px;
         }
-         .End{
-           visibility: hidden;
+        .highlights-video{
+            display: none;
         }
+        .highlights-video-2{
+            display: inline;
+            text-align: center;
+        }
+        .highlights-video-2 a{
+            text-decoration: none;
+            color:cadetblue;
+        }
+        .last-image img {
+            width: 270px;
+            height: 110px;
+        }
+        
     
     }    
     
